@@ -1,0 +1,167 @@
+/*
+Usar > para indicar parentes diretos
+Usar variáveis com :root para cores e fontes para facilitar
+*/
+
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: 'Idroid';
+    src: url('fonts/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: #8DDEB0;
+    margin: 0px;
+}
+
+h1 {
+    margin: 0;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+header {
+    background-image: linear-gradient(#3AD07D, #2A9559, #1A5C38);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 100%;
+    text-shadow: 2px 3px 6px rgba(0, 0, 0, 0.384);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.342);
+}
+
+header h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 41px;
+    padding: 20px;
+    margin: 0;
+}
+
+/* USAR EM PARA MEDIDAS DE FONTE */
+
+header p {
+    margin: 20px 20px 25px 20px;
+    font-size: 19px;
+}
+header nav {
+    font-weight: bold;
+    text-align: left;
+    padding: 8px;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 5px;
+    transition: background-color 0.5s ease-out 50ms;
+}
+
+header nav a:hover {
+    background-color: #3AB16E;
+}
+
+.destaque {
+    color: #0C823F;
+    font-weight: bold;
+}
+
+main {
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    border-radius: 0px 0px 7px 7px;
+    box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.329);
+}
+
+main h1 {
+    font-family: 'Idroid', 'fantasy';
+    color: #0C823F;
+}
+
+main h2 {
+    font-family: 'Idroid', 'fantasy';
+    color: #0C823F;
+    background-image: linear-gradient(to right,#98ecbd, #FFFFFF);
+}
+
+main p {
+    text-indent: 25px;
+}
+
+main a {
+    color: #0C823F;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+main a:hover {
+    text-decoration: underline;
+}
+
+main a::after {
+    content: '🔗';
+}
+
+.extra {
+    background-color: #b8ebce;
+    border-radius: 10px;
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.322);
+}
+
+.extra h1 {
+    border-radius: 10px 10px 0px 0px;
+    font-family: Arial;
+    font-size: 18px;
+    color: white;
+    background-color: #0C823F;
+    padding: 10px;
+}
+
+.extra p {
+    display: block;
+    padding: 5px 12px 5px 12px;
+}
+
+.video {
+    background-color: darkgreen;
+    width: 100%;
+    height: 250px;
+    margin: 20px 0px 20px 0px;
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+}
+
+footer {
+    margin: 20px 0px 0px 0px;
+    padding: 2px 2px 2px 2px;
+    background-color: #074622;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color:#3AD07D;
+}
